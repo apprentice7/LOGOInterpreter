@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  LOGODrawingView.h
 //  LOGO Interpreter
 //
 //  Created by Chengpeng Qin on 16/3/15.
@@ -7,11 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "LOGOModel.h"
-#import "LOGODrawingView.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface LOGODrawingView : NSView
 
+@property (nonatomic, strong) NSBezierPath *path;
 
 @end
-
